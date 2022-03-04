@@ -1,0 +1,244 @@
+div#cookiesAlert {
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+div#introductionCard {
+    color: #2e2e2e !important;
+    border: none;
+}
+
+section#introductionSection {
+    transform: translateY(50px);
+}
+
+body#bodyContainer {
+    background-color: #000000;
+    background-image: url("/Users/navneet/My Space/Workspace/Gaming_Laptop_Website/Library/resources/images/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    background-color: transparent;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+section#explore {
+    padding-top: 200px;
+}
+
+.container {
+    margin-left: 12%;
+    margin-right: 0;
+}
+
+div#exploreCard {
+    color: #ffffff;
+    background-color: #000000;    
+}
+
+div.exploreImage {
+    width: 120% !important;
+}
+
+.exploreButton {
+    margin-top: 40px;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 21px;
+}
+
+.rounded {
+    border-radius: 1.25rem !important;
+}
+
+.nav-link:hover {
+    color: #343a40;
+}
+
+.card {
+    background-color: #000000;
+}
+
+div#buyNowCard {
+    color: #ffffff;
+    background-color: #000000;
+    transform: translateY(20%);
+}
+
+.card-body {
+    align-content: center;
+    text-align: center;
+    word-break: break-word;
+}
+
+footer#footer {
+    transform: translateY(150px);
+}
+
+div#waysToShop {
+    color: #ffffff;
+    text-align: center;
+    font-size: xx-small
+}
+
+hr {
+    color: #ffffff;
+    border-bottom: #ffffff 1px solid;
+    margin-left: 30%;
+    width: 48%;
+    margin-left: 26%;
+    margin-bottom: -2px;
+    margin-top: -10px;
+}
+
+.table-dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+div#pageHeader {
+    /*text-align: center;*/
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    /*-webkit-filter: blur(0px);*/
+    /*-moz-filter: blur(0px);*/
+    /*-o-filter: blur(0px);*/
+    /*-ms-filter: blur(0px);*/
+    /*filter: blur(0px);*/
+}
+
+div#specificationsTable {
+    border: 1px solid #32383e;
+    text-align: center;
+}
+
+form#supportForm {
+    color: #ffffff;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.submitButton {
+    margin-top: 40px;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 21px;
+}
+
+button.submitButton {
+    width: 100%;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+ol.gamesList {
+    color: #FFFFFF;
+}
+
+.gamesListOl {
+    margin-left: 5%;
+}
+
+.gamesListOl1 {
+    margin-left: 5%;
+}
+
+.gamesListOl2 {
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.gamesListContainer {
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+
+div#colorRadio {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+label#blackRadio {
+    margin-right: 5px;
+}
+
+label#whiteRadio {
+    margin-left: 5px;
+}
+
+.buy {
+    width: 55% !important;
+    margin-left: 23%;
+    margin-right: 20%;
+    margin-top: 2px;
+}
+
+img#buyNowId {
+    margin-left: 12%;
+    width: 70%;
+    height: 70%;
+}
+
+.alert-danger {
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+div#buyNowSuccess {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+}
+div#copyright {
+    margin-top: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: xx-small
+}
+
+div#signupdiv {
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    padding: 5px;
+
+    /* Add the blur effect */
+    /*-webkit-filter: blur(5px);*/
+    /*-moz-filter: blur(5px);*/
+    /*-o-filter: blur(5px);*/
+    /*-ms-filter: blur(5px);*/
+    /*filter: blur(5px);*/
+
+}
+
+div#supportFormDivision {
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: center;
+    color: gray;
+}
+
+label.radiobuttoncustom {
+    color: gray; /* #AA5151*/
+}

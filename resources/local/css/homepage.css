@@ -1,0 +1,18 @@
+/* Design for the Profile Image in the Navigation Bar */
+.nav-bar-profile-image {
+    border-radius: 50%;
+}
+
+/* Design for the Profile Name in the Navigation Bar */
+.nav-bar-profile-name {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Design for the Profile Headline in the Navigation Bar */
+.nav-bar-profile-headline {
+    display:block;
+    font-size: small;
+    margin-left: 65px;
+    margin-top: -20px;
+}
