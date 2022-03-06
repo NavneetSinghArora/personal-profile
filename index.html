@@ -31,6 +31,7 @@
 
         <!-- Site Specific Resources -->
         <!-- CSS Files -->
+        <link rel="stylesheet" href="resources/local/css/common.css">
         <link rel="stylesheet" href="resources/local/css/homepage.css">
 
         <!-- Font Awesome Script -->
@@ -38,9 +39,9 @@
 
     </head>
 
-    <body id="bodyContainer background-color d-flex flex-column">
+    <body id="bodyContainer" class="background-color d-flex flex-column">
 
-        <header id="siteHeader" class="fixed-top">
+        <header id="siteHeader" class="fixed-top header-margins">
             <!-- Navigation Bar -->
             <nav class="navbar navbar-expand-xxl navbar-light background-color">
                 <div class="container-fluid">
@@ -70,15 +71,54 @@
                     </div>
                 </div>
             </nav>
+            <hr class="normal-header-break">
         </header>
-        <hr class="header-break">
 
-        <footer class="footer text-center fixed-bottom background-color">
+        <main id="main-body">
+            <div class="container homepage-body-container">
+                <div id="body-container" class="container-fluid">
+                    <div class="row">
+                        <div class="col-6">
+                            <img id="main-body-profile-image" src="resources/local/images/Profile_Image.jpg" alt="Avatar" width="618" height="655" class="d-inline-block align-text-top main-body-profile-image img-fluid">
+                        </div>
+                        <div class="col-6">
+                            <h1 class="introduction-heading">Hello</h1>
+                            <h5 class="introduction-sub-heading">A Bit About Me</h5>
+                            <p class="introduction-text">
+                                I am a Machine Learning Researcher, focusing on multi-modal approach involving Computer Vision and Natural Language. Currently, I am pursuing my Masters in Intelligent Adaptive Systems from University of Hamburg, Hamburg, Germany.
+                                <br>
+                                <br>
+                                In my current assignments, I have been working as a Software Engineer at Repath. I am also a Student Tutor for Computer Vision in Informatics Department at University of Hamburg and finally I am leading a community in Germany with Omdena. 
+                                <br>
+                                <br>
+                                My previous endeavours involved working as a Tech Lead and Full Stack Engineer at Nice Interactive Solutions, Full Stack Engineer and Freelancer at AllOffice.Space through Upwork and Program Analyst at Cognizant.
+                            </p>
+                            <div class="section-links">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <button type="button" class="link-button-shape-size btn-primary resume-button">Resume</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="link-button-shape-size btn-primary projects-button">Projects</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="link-button-shape-size btn-primary contact-button">Contact</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer text-center background-color fixed-bottom">
+            <hr class="normal-footer-break">
             <!-- Grid container -->
             <div class="container">
                 <!-- Contact Details Container -->
                 <div class="row g-0">
-                    <div class="col-3 text-lg-end">
+                    <div class="col-3 text-lg-start">
                         <div class="footer-heading-row">
                             <span class="footer-heading">Phone</span>
                         </div>
@@ -86,7 +126,7 @@
                             <span class="footer-contact-number">+49 176-680-56076</span>
                         </div>
                     </div>
-                    <div class="col-3 text-lg-end">
+                    <div class="col-3 text-lg-start">
                         <div class="footer-heading-row">
                             <span class="footer-heading">Email</span>
                         </div>
@@ -94,38 +134,44 @@
                             <span class="footer-email-address">aroranavneetsingh.de@gmail.com</span>
                         </div>
                     </div>
-                    <div class="col-3 text-lg-end">
+                    <div class="col-3 text-lg-start">
                         <div class="footer-heading-row">
                             <span class="footer-heading">Follow Me</span>
                         </div>
-                        <div >
-                            <!-- Facebook -->
-                            <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="#!" role="button" data-mdb-ripple-color="dark">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                            <!-- Twitter -->
-                            <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="#!" role="button" data-mdb-ripple-color="dark">
-                              <i class="fab fa-twitter"></i>
-                            </a>
-                            <!-- Google -->
-                            <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="#!" role="button" data-mdb-ripple-color="dark">
-                              <i class="fab fa-google"></i>
-                            </a>
-                            <!-- Instagram -->
-                            <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="#!" role="button" data-mdb-ripple-color="dark">
-                              <i class="fab fa-instagram"></i>
-                            </a>
-                            <!-- Linkedin -->
-                            <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="#!" role="button" data-mdb-ripple-color="dark">
-                              <i class="fab fa-linkedin"></i>
-                            </a>
-                            <!-- Github -->
-                            <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="#!" role="button" data-mdb-ripple-color="dark">
-                              <i class="fab fa-github"></i>
-                            </a>
+                        <div>
+                            <span>
+                                <!-- Facebook -->
+                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.facebook.com/singhNavneetArora" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </span>
+                            <span>
+                                <!-- Twitter -->
+                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="#!" role="button" data-mdb-ripple-color="dark">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </span>
+                            <span>
+                                <!-- Instagram -->
+                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.instagram.com/_u/navneet_singh_arora" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </span>
+                            <span>
+                                <!-- Linkedin -->
+                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.linkedin.com/in/navneet-singh-arora" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </span>
+                            <span>
+                                <!-- Github -->
+                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://github.com/NavneetSinghArora" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </span>
                         </div>
                     </div>
-                    <div class="col-3 text-lg-end">
+                    <div class="col-3 text-lg-start">
                         <div class="footer-heading-row">
                             <span class="footer-heading">Copyright</span>
                         </div>

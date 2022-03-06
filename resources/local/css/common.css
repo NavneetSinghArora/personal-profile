@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------*/
+/* Background Color for entire Website */
+.background-color {
+    background-color: #C7C7C7;
+}
+/*--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/* Navigation Bar properties*/
+.nav-bar-profile-name {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.nav-bar-profile-headline {
+    display:block;
+    font-size: small;
+    margin-left: 65px;
+    margin-top: -20px;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: auto;
+}
+.nav-bar-profile-image {
+    border-radius: 50%;
+}
+/*--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/* Design the Header and Footers */
+.header-margins {
+    padding-bottom: 25px;
+}
+.footer {
+    padding-top: 10px;
+}
+.footer-heading {
+    font-weight: bold;
+}
+.footer-heading-row {
+    padding-bottom: 10px;
+}
+.footer-email-address {
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: auto;
+}
+.initial-padding {
+    padding-left: 0;
+    padding-top: 0;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+/*--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/* Design the Header and Footer Breaks for better visualization */
+.normal-header-break {
+    margin-top: -2px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.normal-footer-break {
+    margin-top: -9px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+/*--------------------------------------------------------------*/

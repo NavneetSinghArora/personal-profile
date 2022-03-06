@@ -1,69 +1,63 @@
-/* Design for the Profile Image in the Navigation Bar */
-.nav-bar-profile-image {
+.main-body-profile-image {
+    border-radius: 50%;
+    align-items: center;
+}
+.homepage-body-container {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.main-body-profile-image {
     border-radius: 50%;
 }
-
-/* Design for the Profile Name in the Navigation Bar */
-.nav-bar-profile-name {
-    margin-left: 10px;
-    font-weight: bold;
+.introduction-heading {
+    font-size: 100px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
-/* Design for the Profile Headline in the Navigation Bar */
-.nav-bar-profile-headline {
-    display:block;
-    font-size: small;
-    margin-left: 65px;
-    margin-top: -20px;
-    word-wrap: break-word;
-    white-space: normal;
-    overflow: auto;
+.introduction-sub-heading {
+    font-size: 25px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.introduction-text {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-/* Design for the background of the entire website */
-.background-color {
-    background-color: #C7C7C7;
 }
-
-.footer-heading {
-    font-weight: bold;
+.link-button-shape-size {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    display: block;
+    justify-content: center;
+    border-color: black;
 }
-
-.footer-heading-row {
-    padding-bottom: 10px;
+.link-button-shape-size:active {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    display: block;
+    justify-content: center;
+    border-color: black;
 }
-
-.initial-padding {
-    padding-left: 0;
-    padding-top: 0;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
+.link-button-shape-size:hover {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    display: block;
+    justify-content: center;
+    border-color: black;
 }
-
-.footer-email-address {
-    word-wrap: break-word;
-    white-space: normal;
-    overflow: auto;
+.resume-button {
+    background-color: #696969;
 }
-
-.footer {
-    padding-top: 10px;
+.projects-button {
+    background-color: #808080;
 }
-
-.header-break {
-    margin-top: -2px;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+.contact-button {
+    background-color: #696969;
 }
-
-.footer-break {
-    margin-bottom: -2px;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-main {
-    height: 100%;
-    /*margin-bottom: -15px;*/
-    /*margin-top: -15px;*/
+.section-links {
+    margin-top: 50px;
 }
