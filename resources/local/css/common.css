@@ -53,6 +53,18 @@
 .follow_me_div {
     /*margin-left: 8%;*/
 }
+.ul-alignment {
+    align-items: end;
+}
+.navbar-supported-content {
+    margin-right: 20px;
+}
+.toggle_button {
+    margin-right: 18px;
+}
+.toggle_overlap_button {
+    margin-right: 18px;
+}
 /*--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------*/

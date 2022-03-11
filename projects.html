@@ -35,7 +35,7 @@
         <link rel="stylesheet" href="resources/local/css/common.css">
 
         <!-- Javascript Files -->
-        <script src="scripts/common.js"></script>
+        <script src="resources/local/js/common.js"></script>
 
         <!-- Font Awesome Script -->
         <script src="https://kit.fontawesome.com/da35d1c041.js" crossorigin="anonymous"></script>
@@ -49,18 +49,18 @@
             <nav class="navbar navbar-expand-xxl navbar-light background-color">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img id="nav-bar-profile-image" src="resources/local/images/Profile_Image.jpg" alt="Avatar" width="50" height="50" class="d-inline-block align-text-top nav-bar-profile-image">
-                        <span class="nav-bar-profile-name">Navneet Singh Arora</span><br>
-                        <span class="nav-bar-profile-headline">Machine Learning Student and Full Stack Engineer</span>
+                        <img id="nav-bar-profile-image" src="resources/local/images/Profile_Image.jpg" alt="Avatar" width="50" height="50" class="d-inline-block align-text-top nav-bar-profile-image" href="javascript:void(0)" onclick="location.href='index.html'">
+                        <span class="nav-bar-profile-name" href="javascript:void(0)" onclick="location.href='index.html'">Navneet Singh Arora</span><br>
+                        <span class="nav-bar-profile-headline" href="javascript:void(0)" onclick="location.href='index.html'">Machine Learning Student and Full Stack Engineer</span>
                     </a>
-                    <button id="toggle_button" class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" onclick="toggle()">
+                    <button id="toggle_button" class="navbar-toggler btn-sm toggle_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" onclick="toggle()">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <button id="toggle_button_overlap" class="navbar-toggler btn-sm toggle_overlap_button" onclick="retoggle()" hidden="hidden">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto w-100 justify-content-end">
+                    <div class="navbar-collapse collapse navbar-supported-content" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto w-100 justify-content-end ul-alignment">
                             <li class="nav-item">
                                 <a class="nav-link" href="javascript:void(0)" onclick="location.href='index.html'">Home</a>
                             </li>
@@ -112,9 +112,21 @@
                         </div>
                         <div class="row">
                             <div class="col-1">
-                                <!-- Facebook -->
-                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.facebook.com/singhNavneetArora" role="button" data-mdb-ripple-color="dark" target="_blank">
-                                    <i class="fab fa-facebook-square"></i>
+                                <!-- Linkedin -->
+                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.linkedin.com/in/navneet-singh-arora" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                            <div class="col-1">
+                                <!-- Xing -->
+                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.xing.com/profile/NavneetSingh_Arora/cv" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                    <i class="fa-brands fa-xing"></i>
+                                </a>
+                            </div>
+                            <div class="col-1">
+                                <!-- Github -->
+                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://github.com/NavneetSinghArora" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                    <i class="fab fa-github"></i>
                                 </a>
                             </div>
                             <div class="col-1">
@@ -124,21 +136,15 @@
                                 </a>
                             </div>
                             <div class="col-1">
+                                <!-- Facebook -->
+                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.facebook.com/singhNavneetArora" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="col-1">
                                 <!-- Instagram -->
                                 <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.instagram.com/_u/navneet_singh_arora" role="button" data-mdb-ripple-color="dark" target="_blank">
                                     <i class="fab fa-instagram"></i>
-                                </a>
-                            </div>
-                            <div class="col-1">
-                                <!-- Linkedin -->
-                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.linkedin.com/in/navneet-singh-arora" role="button" data-mdb-ripple-color="dark" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </div>
-                            <div class="col-1">
-                                <!-- Github -->
-                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://github.com/NavneetSinghArora" role="button" data-mdb-ripple-color="dark" target="_blank">
-                                    <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
