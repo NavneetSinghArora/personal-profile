@@ -28,10 +28,14 @@
         <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
         <script src="resources/bootstrap-5.0.2/js/bootstrap.js"></script>
         <script src="resources/bootstrap-5.0.2/js/bootstrap.bundle.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
         <!-- Site Specific Resources -->
         <!-- CSS Files -->
         <link rel="stylesheet" href="resources/local/css/common.css">
+
+        <!-- Javascript Files -->
+        <script src="scripts/common.js"></script>
 
         <!-- Font Awesome Script -->
         <script src="https://kit.fontawesome.com/da35d1c041.js" crossorigin="anonymous"></script>
@@ -50,22 +54,25 @@
                         <span class="nav-bar-profile-name">Navneet Singh Arora</span><br>
                         <span class="nav-bar-profile-headline">Machine Learning Student and Full Stack Engineer</span>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button id="toggle_button" class="navbar-toggler btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" onclick="toggle()">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <button id="toggle_button_overlap" class="navbar-toggler btn-sm toggle_overlap_button" onclick="retoggle()" hidden="hidden">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto w-100 justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
+                                <a class="nav-link" href="javascript:void(0)" onclick="location.href='index.html'">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Resume</a>
+                                <a class="nav-link active" aria-current="page" href="javascript:void(0)" onclick="location.href='#'">Resume</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="projects.html">Projects</a>
+                                <a class="nav-link" href="javascript:void(0)" onclick="location.href='projects.html'">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="javascript:void(0)" onclick="location.href='contact.html'">Contact</a>
                             </li>
                         </ul>
                     </div>

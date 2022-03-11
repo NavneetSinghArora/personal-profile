@@ -23,8 +23,8 @@
 
 }
 .link-button-shape-size {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     background-color: black;
     display: block;
@@ -32,8 +32,8 @@
     border-color: black;
 }
 .link-button-shape-size:active {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     background-color: black;
     display: block;
@@ -41,8 +41,8 @@
     border-color: black;
 }
 .link-button-shape-size:hover {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     background-color: black;
     display: block;
@@ -51,13 +51,21 @@
 }
 .resume-button {
     background-color: #696969;
+    margin-bottom: 10%;
 }
 .projects-button {
     background-color: #808080;
+    margin-bottom: 10%;
 }
 .contact-button {
     background-color: #696969;
+    margin-bottom: 10%;
 }
 .section-links {
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+.toggle_overlap_button {
+    background-color: transparent;
+
 }
