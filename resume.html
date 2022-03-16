@@ -33,6 +33,7 @@
         <!-- Site Specific Resources -->
         <!-- CSS Files -->
         <link rel="stylesheet" href="resources/local/css/common.css">
+        <link rel="stylesheet" href="resources/local/css/resumepage.css">
 
         <!-- Javascript Files -->
         <script src="resources/local/js/common.js"></script>
@@ -81,8 +82,467 @@
             <hr class="normal-header-break">
         </header>
 
-        <main>
+        <main id="main-body">
+            <div class="container resume-body-container">
+                <div id="body-container" class="container-fluid">
 
+                    <div id="experience-section">
+                        <div id="experience-title" class="section-title">
+                            <span>Work Experience</span>
+                        </div>
+                        <div class="link-position btn-sm ">
+                            <a class="nav-link-custom " aria-current="page" href="#education-section">Educational Qualifications</a>
+                            <a class="" href="#education-section" role="button" data-mdb-ripple-color="dark">
+                                <i class="fa-solid fa-arrow-down"></i>
+                            </a>
+                        </div>
+                        <div class="container experience-information">
+                            <div class="container-fluid">
+                                <div class="row job shadow p-3 mb-5">
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-tenure">
+                                            <span>December 2021 - Present</span>
+                                        </div>
+                                        <div id="company-logo-one" class="company-logo">
+                                            <img id="repath-logo" src="resources/local/images/Repath.png" alt="Avatar" width="120" height="120" class="d-inline-block align-text-top " href="javascript:void(0)" onclick="location.href='https://repathnow.com'">
+                                        </div>
+                                        <div class="company-info row">
+                                            <div class="col-6 link-1">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://repathnow.com" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-solid fa-globe"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 link-2">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.linkedin.com/company/repathnow/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="company-info">
+                                            <span>Repath</span>
+                                            <br>
+                                            <span>Hamburg, Germany</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-title">
+                                            <span>Full Stack Engineer</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Project Lead for data preparation and CI/CD Pipeline.
+                                                </li>
+                                                <li>
+                                                    Planning architecture and flow to integrate ML algorithms.
+                                                </li>
+                                                <li>
+                                                    Software development focusing on data integration and infrastructure.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row job shadow p-3 mb-5">
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-tenure">
+                                            <span>June 2021 - Present</span>
+                                        </div>
+                                        <div id="company-logo-two" class="company-logo">
+                                            <img id="omdena-logo" src="resources/local/images/Omdena.png" alt="Avatar" width="120" height="120" class="d-inline-block align-text-top " href="javascript:void(0)" onclick="location.href='https://repathnow.com'">
+                                        </div>
+                                        <div class="company-info row">
+                                            <div class="col-6 link-1">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://omdena.com/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-solid fa-globe"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 link-2">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.linkedin.com/company/omdena/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="company-info">
+                                            <span>Omdena</span>
+                                            <br>
+                                            <span>Hamburg, Germany</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-title">
+                                            <span>Chapter Lead</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Community Leader for Hamburg Chapter.
+                                                </li>
+                                                <li>
+                                                    Hosting open-source projects for knowledge sharing among the community members.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row job shadow p-3 mb-5">
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-tenure">
+                                            <span>October 2021 - March 2022</span>
+                                        </div>
+                                        <div id="company-logo-three" class="company-logo">
+                                            <img id="uhh-logo" src="resources/local/images/University%20of%20Hamburg.png" alt="Avatar" width="120" height="120" class="d-inline-block align-text-top " href="javascript:void(0)" onclick="location.href='https://repathnow.com'">
+                                        </div>
+                                        <div class="company-info row">
+                                            <div class="col-6 link-1">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.uni-hamburg.de/en.html" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-solid fa-globe"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 link-2">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.linkedin.com/school/unihamburg/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="company-info">
+                                            <span>Universität Hamburg</span>
+                                            <br>
+                                            <span>Hamburg, Germany</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-title">
+                                            <span>Student Tutor</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Conducting practical labs for the students of Computer Vision.
+                                                </li>
+                                                <li>
+                                                    Conducting Q&A sessions related to the course.
+                                                </li>
+                                                <li>
+                                                    Course administration related to record keeping for student assignments.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row job shadow p-3 mb-5">
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-tenure">
+                                            <span>May 2020 - February 2021</span>
+                                        </div>
+                                        <div id="company-logo-four" class="company-logo">
+                                            <img id="allofficespace-logo" src="resources/local/images/All%20Office%20Space.png" alt="Avatar" width="120" height="120" class="d-inline-block align-text-top " href="javascript:void(0)" onclick="location.href='https://repathnow.com'">
+                                        </div>
+                                        <div class="company-info row">
+                                            <div class="col-6 link-1">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.alloffice.space/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-solid fa-globe"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 link-2">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.linkedin.com/company/allofficespace/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="company-info">
+                                            <span>AllOffice.Space</span>
+                                            <br>
+                                            <span>Remote</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-title">
+                                            <span>Full Stack Engineer - Freelance</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Worked on backend application using Python and Selenium.
+                                                </li>
+                                                <li>
+                                                    Built platform UI using Tkinter for the internal team.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row job shadow p-3 mb-5">
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-tenure">
+                                            <span>January 2018 - October 2020</span>
+                                        </div>
+                                        <div id="company-logo-five" class="company-logo">
+                                            <img id="nice-logo" src="resources/local/images/Nice.png" alt="Avatar" width="120" height="120" class="d-inline-block align-text-top " href="javascript:void(0)" onclick="location.href='https://repathnow.com'">
+                                        </div>
+                                        <div class="company-info row">
+                                            <div class="col-6 link-1">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.nice.com/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-solid fa-globe"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 link-2">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.linkedin.com/company/nice-systems/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="company-info">
+                                            <span>Nice Ltd.</span>
+                                            <br>
+                                            <span>Pune, Maharashtra, India</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-title">
+                                            <span>Tech Lead</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Leading the team of developers and quality assurance engineers in software analysis and rebuilding for product platform.
+                                                </li>
+                                                <li>
+                                                    Worked with the team on front-end using AngularJs as well as on the backend using Java with Spring framework.
+                                                </li>
+                                                <li>
+                                                    Designed and developed Tableau Dashboards with parameter adjustment to boost performance.
+                                                </li>
+                                                <li>
+                                                    Collaborated with project managers and customers to resolve technical issues.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="job-title">
+                                            <span>Software Engineer</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Leading the team of developers and quality assurance engineers in software analysis and rebuilding for product platform.
+                                                </li>
+                                                <li>
+                                                    Worked with the team on front-end using AngularJs as well as on the backend using Java with Spring framework.
+                                                </li>
+                                                <li>
+                                                    Designed and developed Tableau Dashboards with parameter adjustment to boost performance.
+                                                </li>
+                                                <li>
+                                                    Collaborated with project managers and customers to resolve technical issues.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row job shadow p-3 mb-5">
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-tenure">
+                                            <span>January 2015 - January 2018</span>
+                                        </div>
+                                        <div id="company-logo-six" class="company-logo">
+                                            <img id="cognizant-logo" src="resources/local/images/Cognizant.png" alt="Avatar" width="120" height="120" class="d-inline-block align-text-top " href="javascript:void(0)" onclick="location.href='https://repathnow.com'">
+                                        </div>
+                                        <div class="company-info row">
+                                            <div class="col-6 link-1">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.cognizant.com/us/en" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-solid fa-globe"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 link-2">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.linkedin.com/company/cognizant/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="company-info">
+                                            <span>Cognizant</span>
+                                            <br>
+                                            <span>Pune, Maharashtra, India</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-title">
+                                            <span>Program Analyst</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Project Innovation Lead.
+                                                </li>
+                                                <li>
+                                                    Saved $40,000 as a cost to client (Credit-Suisse).
+                                                </li>
+                                                <li>
+                                                    Received Kudos Award for technical work.
+                                                </li>
+                                                <li>
+                                                    Automated the deployment system, reducing deployment time from 4 hours to 20 minutes.
+                                                </li>
+                                                <li>
+                                                    Worked as a backend developer using Java and Shell Scripts.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="job-title">
+                                            <span>Program Analyst Trainee</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Project Innovation Lead.
+                                                </li>
+                                                <li>
+                                                    Saved $40,000 as a cost to client (Credit-Suisse).
+                                                </li>
+                                                <li>
+                                                    Received Kudos Award for technical work.
+                                                </li>
+                                                <li>
+                                                    Automated the deployment system, reducing deployment time from 4 hours to 20 minutes.
+                                                </li>
+                                                <li>
+                                                    Worked as a backend developer using Java and Shell Scripts.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="education-section">
+                        <div id="education-title" class="section-title">
+                            <span>Educational Qualifications</span>
+                        </div>
+                        <div class="link-position btn-sm ">
+                            <a class="nav-link-custom" aria-current="page" href="#experience-section">Work Experience</a>
+                            <a class="" href="#experience-section" role="button" data-mdb-ripple-color="dark">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </a>
+                        </div>
+                        <div class="container experience-information">
+                            <div class="container-fluid">
+                                <div class="row job shadow p-3 mb-5">
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-tenure">
+                                            <span>November 2020 - Present</span>
+                                        </div>
+                                        <div id="education-logo-one" class="company-logo">
+                                            <img id="uhh-logo-2" src="resources/local/images/University%20of%20Hamburg.png" alt="Avatar" width="120" height="120" class="d-inline-block align-text-top " href="javascript:void(0)" onclick="location.href='https://repathnow.com'">
+                                        </div>
+                                        <div class="company-info row">
+                                            <div class="col-6 link-1">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.uni-hamburg.de/en.html" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-solid fa-globe"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 link-2">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.linkedin.com/school/unihamburg/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="company-info">
+                                            <span>Universität Hamburg</span>
+                                            <br>
+                                            <span>Hamburg, Germany</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-title">
+                                            <span>Msc. Intelligent Adaptive Systems</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Working on Embodied AI using vision and language (multi-modal).
+                                                </li>
+                                                <li>
+                                                    Implemented SegNet on Remote Sensing images using PyTorch.
+                                                </li>
+                                                <li>
+                                                    Implemented YoloV3 to detect masked, un-masked and incorrect masked people in the images.
+                                                </li>
+                                                <li>
+                                                    Worked with an advisor on:
+                                                    <ul>
+                                                        <li>
+                                                            Few-Shot Gaze Estimation (FAZE network).
+                                                        </li>
+                                                        <li>
+                                                            Graph Convolution Network for emotion detection (DialogueGCN).
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row job shadow p-3 mb-5">
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-tenure">
+                                            <span>August 2011 - May 2015</span>
+                                        </div>
+                                        <div id="education-logo-two" class="company-logo">
+                                            <img id="lpu-logo" src="resources/local/images/Lovely%20Professional%20University.png" alt="Avatar" width="120" height="120" class="d-inline-block align-text-top " href="javascript:void(0)" onclick="location.href='https://repathnow.com'">
+                                        </div>
+                                        <div class="company-info row">
+                                            <div class="col-6 link-1">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.lpu.in" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-solid fa-globe"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 link-2">
+                                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 shadow-sm" href="https://www.linkedin.com/school/lovely-professional-university/" role="button" data-mdb-ripple-color="dark" target="_blank">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="company-info">
+                                            <span>Lovely Professional University</span>
+                                            <br>
+                                            <span>Phagwara, Punjab, India</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-self-lg-center flex-column bd-highlight mb-3 align-self-sm-start align-self-md-start">
+                                        <div class="job-title">
+                                            <span>Bsc. Computer Science and Engineering</span>
+                                        </div>
+                                        <div class="job-role">
+                                            <ul>
+                                                <li>
+                                                    Key coursework included:
+                                                    <ul>
+                                                        <li>
+                                                            Programming Languages (C, C++, and Java).
+                                                        </li>
+                                                        <li>
+                                                            SDLC.
+                                                        </li>
+                                                        <li>
+                                                            Computer Architecture.
+                                                        </li>
+                                                        <li>
+                                                            Database Systems and Cloud Computing.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer class="footer text-center background-color fixed-bottom">
