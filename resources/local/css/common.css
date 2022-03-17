@@ -9,6 +9,7 @@
 /* Navigation Bar properties*/
 .nav-bar-profile-name {
     margin-left: 10px;
+    margin-right: 20px;
     font-weight: bold;
 }
 .nav-bar-profile-headline {
@@ -64,6 +65,9 @@
 }
 .toggle_overlap_button {
     margin-right: 18px;
+}
+.icon-width {
+    width: fit-content;
 }
 /*--------------------------------------------------------------*/
 

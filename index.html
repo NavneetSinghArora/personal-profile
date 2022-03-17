@@ -47,12 +47,12 @@
 
         <header id="siteHeader" class="fixed-top header-margins">
             <!-- Navigation Bar -->
-            <nav class="navbar navbar-expand-xxl navbar-light background-color">
+            <nav class="navbar navbar-expand-sm navbar-light background-color">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand col-6" href="#">
                         <img id="nav-bar-profile-image" src="resources/local/images/Profile_Image.jpg" alt="Avatar" width="50" height="50" class="d-inline-block align-text-top nav-bar-profile-image" href="javascript:void(0)" onclick="location.href='index.html'">
-                        <span class="nav-bar-profile-name" href="javascript:void(0)" onclick="location.href='index.html'">Navneet Singh Arora</span><br>
-                        <span class="nav-bar-profile-headline" href="javascript:void(0)" onclick="location.href='index.html'">Machine Learning Student and Full Stack Engineer</span>
+                        <span class="col-4 nav-bar-profile-name" href="javascript:void(0)" onclick="location.href='index.html'">Navneet Singh Arora</span><br>
+                        <span class="col-12 nav-bar-profile-headline" href="javascript:void(0)" onclick="location.href='index.html'">Machine Learning Student and Full Stack Engineer</span>
                     </a>
                     <button id="toggle_button" class="navbar-toggler btn-sm toggle_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" onclick="toggle()">
                         <span class="navbar-toggler-icon"></span>
@@ -86,10 +86,10 @@
             <div class="container homepage-body-container">
                 <div id="body-container" class="container-fluid">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12">
                             <img id="main-body-profile-image" src="resources/local/images/Profile_Image.jpg" alt="Avatar" width="618" height="655" class="d-inline-block align-text-top main-body-profile-image img-fluid">
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12">
                             <h1 class="introduction-heading">Hello</h1>
                             <h5 class="introduction-sub-heading">A Bit About Me</h5>
                             <p class="introduction-text">
@@ -102,16 +102,10 @@
                                 My previous endeavours involved working as a Tech Lead and Full Stack Engineer at Nice Interactive Solutions, Full Stack Engineer and Freelancer at AllOffice.Space through Upwork and Program Analyst at Cognizant.
                             </p>
                             <div class="section-links">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-sm-9">
-                                        <button type="button" class="link-button-shape-size btn-primary resume-button img-fluid" href="javascript:void(0)" onclick="location.href='resume.html'">Resume</button>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-9">
-                                        <button type="button" class="link-button-shape-size btn-primary projects-button img-fluid" href="javascript:void(0)" onclick="location.href='projects.html'">Projects</button>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-9">
-                                        <button type="button" class="link-button-shape-size btn-primary contact-button img-fluid" href="javascript:void(0)" onclick="location.href='contact.html'">Contact</button>
-                                    </div>
+                                <div class="d-grid gap-2 d-md-flex d-sm-flex d-flex justify-content-md-center">
+                                    <button type="button" class="link-button-shape-size btn-primary resume-button img-fluid" href="javascript:void(0)" onclick="location.href='resume.html'">Resume</button>
+                                    <button type="button" class="link-button-shape-size btn-primary projects-button img-fluid" href="javascript:void(0)" onclick="location.href='projects.html'">Projects</button>
+                                    <button type="button" class="link-button-shape-size btn-primary contact-button img-fluid" href="javascript:void(0)" onclick="location.href='contact.html'">Contact</button>
                                 </div>
                             </div>
                         </div>
@@ -126,74 +120,70 @@
             <div class="container">
                 <!-- Contact Details Container -->
                 <div class="row g-0">
-                    <div class="col-3 text-lg-start">
-                        <div class="footer-heading-row">
-                            <span class="footer-heading">Phone</span>
-                        </div>
-                        <div>
-                            <span class="footer-contact-number">+49 176-680-56076</span>
-                        </div>
-                    </div>
-                    <div class="col-3 text-lg-start">
-                        <div class="footer-heading-row">
-                            <span class="footer-heading">Email</span>
-                        </div>
-                        <div>
-                            <span class="footer-email-address">aroranavneetsingh.de@gmail.com</span>
-                        </div>
-                    </div>
-                    <div class="col-3 text-lg-start">
+<!--                    <div class="col-3 text-lg-start">-->
+<!--                        <div class="footer-heading-row">-->
+<!--                            <span class="footer-heading">Phone</span>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <span class="footer-contact-number">+49 176-680-56076</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-3 text-lg-start">-->
+<!--                        <div class="footer-heading-row">-->
+<!--                            <span class="footer-heading">Email</span>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <span class="footer-email-address">aroranavneetsingh.de@gmail.com</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <div class="col-12 text-lg-center">
                         <div class="footer-heading-row">
                             <span class="footer-heading">Follow Me</span>
                         </div>
-                        <div class="row">
-                            <div class="col-1">
+                        <div class="row align-items-center">
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
                                 <!-- Linkedin -->
                                 <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.linkedin.com/in/navneet-singh-arora" role="button" data-mdb-ripple-color="dark" target="_blank">
                                     <i class="fa-brands fa-linkedin-in"></i>
                                 </a>
                             </div>
-                            <div class="col-1">
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
                                 <!-- Xing -->
                                 <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.xing.com/profile/NavneetSingh_Arora/cv" role="button" data-mdb-ripple-color="dark" target="_blank">
                                     <i class="fa-brands fa-xing"></i>
                                 </a>
                             </div>
-                            <div class="col-1">
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
                                 <!-- Github -->
                                 <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://github.com/NavneetSinghArora" role="button" data-mdb-ripple-color="dark" target="_blank">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
-                            <div class="col-1">
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
                                 <!-- Twitter -->
                                 <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="#!" role="button" data-mdb-ripple-color="dark">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                             </div>
-                            <div class="col-1">
-                                <!-- Facebook -->
-                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.facebook.com/singhNavneetArora" role="button" data-mdb-ripple-color="dark" target="_blank">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                            </div>
-                            <div class="col-1">
-                                <!-- Instagram -->
-                                <a class="btn btn-link btn-floating btn-sm text-dark m-1 initial-padding" href="https://www.instagram.com/_u/navneet_singh_arora" role="button" data-mdb-ripple-color="dark" target="_blank">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-1"></div>
                         </div>
                     </div>
-                    <div class="col-3 text-lg-start">
-                        <div class="footer-heading-row">
-                            <span class="footer-heading">Copyright</span>
-                        </div>
-                        <div>
-                            © 2022 Copyright By:
-                            <a class="text-dark" href="https://www.navneetsingharora.com">Navneet Singh Arora</a>
-                        </div>
-                    </div>
+<!--                    <div class="col-6 text-lg-start">-->
+<!--                        <div class="footer-heading-row">-->
+<!--                            <span class="footer-heading">Copyright</span>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            © 2022 Copyright By:-->
+<!--                            <a class="text-dark" href="https://www.navneetsingharora.com">Navneet Singh Arora</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </footer>
