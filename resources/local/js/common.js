@@ -37,3 +37,9 @@ function retoggle() {
        element.setAttribute("hidden", "hidden");
     }
 }
+
+$(document).ready(function() {
+  $('#mailbutton').click(function(event) {
+    window.location = "mailto:navneetsingharora@web.de";
+  });
+});
